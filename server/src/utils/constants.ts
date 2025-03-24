@@ -1,0 +1,46 @@
+export const jsonSchemaFormat = {
+  name: "deal_response",
+  schema: {
+    type: "object",
+    properties: {
+      // store: { type: "string" },
+      // title: { type: "string" },
+      // slug: { type: "string" },
+      // image: { type: "string" },
+      offer_price: { type: "string" },
+      retail_price: { type: "string" },
+      //   code: { type: "string" },
+      //   link: { type: "string" },
+      //   discount: { type: "string" },
+      //   description: { type: "string" },
+      //   categories: {
+      //     type: "array",
+      //     items: {
+      //       type: "object",
+      //       properties: {
+      //         name: { type: "string" },
+      //         id: { type: "number" },
+      //       },
+      //       required: ["name", "id"],
+      //       additionalProperties: false,
+      //     },
+      //   },
+      // },
+      required: [
+        // "store",
+        // "title",
+        // "slug",
+        // "image",
+        "offer_price",
+        "retail_price",
+        // "code",
+        // "link",
+        // "discount",
+        // "description",
+        // "categories",
+      ],
+      additionalProperties: false,
+    },
+    strict: true,
+  },
+};

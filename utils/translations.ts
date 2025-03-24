@@ -1,6 +1,6 @@
 const translations: Record<string, string> = {
   key: "value",
-  popup_title: "Sparissimo editor scrapper",
+  popup_title: "Price Checker",
   preview_details: "Preview Details",
   store: "Store",
   title: "Title",

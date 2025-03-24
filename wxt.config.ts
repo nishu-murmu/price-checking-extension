@@ -7,9 +7,10 @@ export default defineConfig({
     disabled: true,
   },
   manifest: {
-    name: "Sparissimo editor scrapper",
-    short_name: "Sparissimo editor scrapper",
-    description: "extension to scrape data from websites.",
+    name: "Price Checker",
+    short_name: "Price Checker",
+    description:
+      "extension to scrape data from websites for you to check the prices of the deals and offers.",
     permissions: ["storage", "tabs", "activeTab", "scripting"],
     action: {
       default_icon: "icon/128.png",
