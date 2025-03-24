@@ -1,0 +1,37 @@
+const translations: Record<string, string> = {
+  key: "value",
+  popup_title: "Sparissimo editor scrapper",
+  preview_details: "Preview Details",
+  store: "Store",
+  title: "Title",
+  slug: "Slug",
+  image: "Image",
+  offer_price: "Offer Price",
+  token_input_label: "Editor Token",
+  token_input_placeholder: "Enter your editor token here",
+  submit: "Submit",
+  generate_deal: "Generate Deal",
+  generating: "Generating...",
+  re_generate: "Regenerate",
+  system_prompt_label: "System Prompt",
+  system_prompt_placeholder: "Enter system prompt",
+  user_prompt_label: "User Prompt",
+  user_prompt_placeholder: "Enter user prompt",
+  api_key_label: "API Key",
+  api_key_placeholder: "Enter API key",
+  prompt_form_title: "Settings",
+  language_selector_label: "Language",
+  prompt_form_submitted: "Settings saved!",
+  user_token_label: "User Token",
+  user_token_placeholder: "Enter User Token",
+  categories: "Categories",
+  retail_price: "Retail Price",
+  code: "Code",
+  link: "Link",
+  discount: "Discount",
+  description: "Description",
+};
+
+export const translate = (key: string): string => {
+  return translations?.[key] || key;
+};
